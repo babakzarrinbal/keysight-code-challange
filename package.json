@@ -1,0 +1,26 @@
+{
+  "name": "keysight-codingchallange",
+  "version": "1.0.0",
+  "description": "coding challange for keysight by Babak zarrinbal",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "index.js",
+    "rootParser.js"
+  ],
+  "bin": {
+    "prog-parser": "./cli.js"
+  },
+  "author": "babak zarrinbal",
+  "email": "babak.zarrinbal@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "command-line-args": "^5.2.1",
+    "console-log-tree": "^1.2.1",
+    "marked": "^10.0.0",
+    "marked-terminal": "^6.1.0"
+  }
+}
